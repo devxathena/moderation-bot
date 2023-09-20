@@ -1,0 +1,26 @@
+{
+  "name": "moderation-bot",
+  "version": "1.1.0",
+  "description": "A discord.js v14 bot base created by XATHENA.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "homepage": "https://github.com/x4th3n4/moderation-bot",
+  "author": "X4TH3N4",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/X4TH3N4/moderation-bot.git"
+  },
+"license": "MIT",
+"dependencies": {
+"@discordjs/builders": "^1.6.5",
+"better-sqlite3": "^8.6.0",
+"discord.js": "^14.13.0",
+"dotenv": "^16.3.1",
+"fs": "^0.0.1-security",
+"moment": "^2.29.4",
+"quick.db": "^9.1.7"
+}
+}
